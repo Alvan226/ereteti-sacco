@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
     <title>Our routes - Ereteti Dairy Sacco</title>
 </head>
 <body>
@@ -24,7 +27,12 @@
 
 <main>
 
-<section>
+<label for="route-search">Search routes or collection centres</label>
+<input type="search" id="route-search" placeholder="Type a route or centre name" aria-describedby="route-search-help">
+<p id="route-search-help">Enter a route or collection centre to filter the list.</p>
+<p id="route-no-results" hidden>No matching routes or centres found.</p>
+
+<section class="route-card">
     <h2>Kiserian Route</h2>
 
     <p>The lorry runs from 6.30am and again from 4.00pm.</p>
@@ -35,7 +43,7 @@
     </ul>
 </section>
 
-<section>
+<section class="route-card">
     <h2>Ngong Route</h2>
 
     <p>The lorry runs twice daily.</p>
@@ -46,7 +54,7 @@
     </ul>
 </section>
 
-<section>
+<section class="route-card">
     <h2>Rongai Route</h2>
 
     <p>The lorry runs twice daily.</p>
