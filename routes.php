@@ -1,29 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" defer></script>
-    <title>Our routes - Ereteti Dairy Sacco</title>
-</head>
-<body>
-
-<header>
-    <h1>Our Routes</h1>
-    <p>Milk collected twice a day, on three routes out of Ngong.</p>
-</header>
-
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="routes.html">Our routes</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="register.html">Join</a></li>
-        <li><a href="deliveries.html">Deliveries</a></li>
-    </ul>
-</nav>
+<?php
+$page_title = 'Our routes';
+include 'includes/header.php';
+?>
 
 <main>
 
@@ -67,10 +45,7 @@
 
 </main>
 
-<footer>
-    <p>Ereteti Dairy Sacco, PO Box 4021, Ngong.</p>
-    <p>Site built by Alvan Kidaki Irangi, DBT Year 1, 2026.</p>
-</footer>
+<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

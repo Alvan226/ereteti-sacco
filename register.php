@@ -1,25 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Apply for membership - Ereteti Dairy Sacco</title>
-</head>
-<body>
-
-<header>
-    <h1>Apply for membership</h1>
-</header>
-
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="routes.html">Routes</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="register.html">Join</a></li>
-        <li><a href="deliveries.html">Deliveries</a></li>
-    </ul>
-</nav>
+<?php
+$page_title = 'Apply for membership';
+include 'includes/header.php';
+?>
 
 <main>
 
@@ -30,7 +12,7 @@
         and you are paid once a month for the litres we accept.
     </p>
 
-    <form action="#" method="post">
+   <form action="process-register.php" method="get">
 
         <fieldset>
             <legend>Your details</legend>
@@ -87,12 +69,7 @@
 
 </main>
 
-<footer>
-    <p>
-        Ereteti Dairy Sacco, PO Box 4021, Ngong<br>
-        Built by Alvan Irangi, YOUR ADMISSION NUMBER, DBT 1305
-    </p>
-</footer>
+<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>
