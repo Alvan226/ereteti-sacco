@@ -4,5 +4,7 @@
      DBT Year 1, <?php echo date('Y'); ?>.</p>
 </footer>
 
+<script src="js/script.js"></script>
+
 </body>
 </html>

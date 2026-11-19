@@ -12,7 +12,7 @@ include 'includes/header.php';
         and you are paid once a month for the litres we accept.
     </p>
 
-   <form action="process-register.php" method="get">
+   <form action="process-register.php" method="post">
 
         <fieldset>
             <legend>Your details</legend>
